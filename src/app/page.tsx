@@ -16,10 +16,10 @@ export default function HomePage() {
       
       <Hero />
 
-      {/* Mavi kartlar */}
+     
       <Services />
 
-      {/* ✅ Services ile Numbers arasında About Us */}
+      
       <AboutUs />
 
       <NumbersSection />

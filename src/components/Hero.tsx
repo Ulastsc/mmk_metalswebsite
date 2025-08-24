@@ -1,13 +1,9 @@
 "use client";
 
 type HeroProps = {
-  /** sayfa başlığı (büyük yazan) */
   subtitle?: string;
-  /** üst satır küçük başlık */
   title?: string;
-  /** alt satır açıklama */
   tagline?: string;
-  /** arkaplan görsel yolu */
   backgroundUrl?: string;
 };
 
