@@ -16,18 +16,23 @@ export default function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50">
       <div className="bg-slate-900/70 backdrop-blur supports-[backdrop-filter]:bg-slate-900/55 border-b border-white/10">
         <div className="w-full h-14 px-6 lg:px-10 flex items-center justify-between">
-          <Link href="#home" className="flex items-center gap-2">
+          
+          {/* Logo */}
+          <Link href="#home" className="flex items-center gap-2" aria-label="Go to home">
             <Image
-              src="/logo.png" 
+              src="/logo.png"   
               alt="MMK Metals Logo"
-              width={90}
-              height={90}
+              width={50}        
+              height={50}
+              className="object-contain"
               priority
             />
             <span className="text-base sm:text-lg tracking-[0.35em] text-white">
               MMK METALS
             </span>
           </Link>
+
+          {/* Menü */}
           <nav className="flex items-center gap-4 sm:gap-6 text-xs sm:text-sm text-white/90">
             <Link href="#about" className="hover:text-white">{LABELS.about}</Link>
             <Link href="#products" className="hover:text-white">{LABELS.products}</Link>
