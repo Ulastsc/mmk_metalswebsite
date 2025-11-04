@@ -16,7 +16,7 @@ export default function FooterSection() {
               className="object-contain"
             />
             <span className="text-xl font-semibold tracking-wide">
-              MMK Precious Metals Inc.
+              ALFECOR Inc.
             </span>
           </div>
 
@@ -30,10 +30,10 @@ export default function FooterSection() {
           </p>
 
           <p className="mt-4 flex items-center gap-2 text-white/90">
-            <Phone size={16} /> +90 532 271 75 92
+            <Phone size={16} /> +90 532 271 75 92 - WhatsApp
           </p>
           <p className="flex items-center gap-2 text-white/90">
-            <Mail size={16} /> info@pilgegroup.com
+            <Mail size={16} /> info@pilgegroup.com - info@mmkas.com
           </p>
         </div>
 
@@ -65,7 +65,7 @@ export default function FooterSection() {
       </div>
 
       <div className="border-t border-white/20 py-4 text-center text-xs text-white/70">
-        © 2025 MMK Metals — All rights reserved.
+        © 2025 ALFECOR — All rights reserved.
       </div>
     </footer>
   );

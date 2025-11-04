@@ -28,7 +28,7 @@ export default function Navbar() {
               priority
             />
             <span className="text-base sm:text-lg tracking-[0.35em] text-white">
-              MMK METALS
+              ALFECOR
             </span>
           </Link>
 

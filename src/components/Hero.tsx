@@ -9,7 +9,7 @@ type HeroProps = {
 
 export default function Hero({
   title = "One Source, One Service",
-  subtitle = "MMK METALS",
+  subtitle = "ALFECOR",
   tagline = "Let Us Deliver Them To You",
   backgroundUrl = "/hero.jpg",
 }: HeroProps) {

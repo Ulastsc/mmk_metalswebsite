@@ -30,7 +30,7 @@ export default function AboutSection() {
         >
           <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
             <p className="text-slate-700 text-sm leading-relaxed">
-              <strong>MMK Precious Metals Inc.</strong> is a Pilge Group company
+              <strong>ALFECOR Inc.</strong> is a Pilge Group company
               specializing in international trade. We build reliable partnerships
               worldwide and deliver quality products with optimal logistics solutions.
             </p>
